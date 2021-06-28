@@ -6,3 +6,6 @@ git clone --depth=1 https://github.com/mchome/luci-app-vlmcsd package/luci-app-v
 
 # ddns-scripts_dnspod OpenWrt 官方 DDNS 插件的 dnspod_cn 更新脚本
 git clone -b v0.0.1 --depth=1 https://github.com/VergilGao/ddns-scripts_dnspod package/ddns-scripts_dnspod
+
+# dnsfilter 基于DNS的广告过滤
+git clone -b 1.0-8 --depth=1 https://github.com/garypang13/luci-app-dnsfilter package/luci-app-dnsfilter
