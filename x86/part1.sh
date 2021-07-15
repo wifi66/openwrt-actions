@@ -15,4 +15,4 @@ git clone -b v2.2.5 --depth=1 https://github.com/jerrykuku/luci-theme-argon pack
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 
 # luci-app-jd-dailybonus
-git clone -b v1.0.5 --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
+git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
