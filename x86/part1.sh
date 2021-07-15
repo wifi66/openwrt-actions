@@ -11,7 +11,7 @@ git clone -b 19.07 --depth=1 https://github.com/VergilGao/ddns-scripts-dnspod pa
 git clone -b 1.0-8 --depth=1 https://github.com/small-5/luci-app-adblock-plus package/luci-app-adblock-plus
 
 # luci-theme-argon
-git clone -b v1.7.2 --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone -b v2.2.5 --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 
 # luci-app-jd-dailybonus
