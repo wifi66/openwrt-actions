@@ -18,7 +18,8 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/l
 git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
 
 # luci-app-smartdns
-git clone -b lede --depth=1 https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
+git clone --depth=1 https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
 # luci-app-vssr
 git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
