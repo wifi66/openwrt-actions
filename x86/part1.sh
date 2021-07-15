@@ -25,5 +25,5 @@ git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git package/lua-m
 git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 # 追加feeds
-echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
-echo "src-git openwrt_switch_lan_play https://github.com/htynkn/openwrt-switch-lan-play.git" >> feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
+echo 'src-git openwrt_switch_lan_play https://github.com/htynkn/openwrt-switch-lan-play.git' >> feeds.conf.default
