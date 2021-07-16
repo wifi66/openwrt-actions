@@ -36,7 +36,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: v19.07.7
+  REPO_BRANCH: openwrt-19.07
   FILES: x86/files
   FEEDS_CONF: x86/feeds.conf
   CONFIG_FILE: x86/.config
