@@ -21,6 +21,9 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
 git clone -b lede --depth=1 https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
+# kcptun
+git clone --depth=1 https://github.com/kuoruan/openwrt-kcptun package/openwrt-kcptun
+
 # luci-app-vssr
 git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
