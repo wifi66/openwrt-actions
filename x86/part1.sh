@@ -15,20 +15,14 @@ git clone -b v2.2.5 --depth=1 https://github.com/jerrykuku/luci-theme-argon pack
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 
 # luci-app-jd-dailybonus
-git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
-
-# luci-app-smartdns
-git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
-git clone -b lede --depth=1 https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
 
 # kcptun
 git clone --depth=1 https://github.com/kuoruan/openwrt-kcptun package/openwrt-kcptun
 
-# luci-app-vssr
-git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+# OpenClash
+git clone --depth=1  https://github.com/vernesong/OpenClash /tmp/clash
+mv /tmp/clash/luci-app-openclash package/luci-app-openclash
 
 # 追加feeds
-echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
 echo 'src-git openwrt_switch_lan_play https://github.com/htynkn/openwrt-switch-lan-play.git' >> feeds.conf.default
