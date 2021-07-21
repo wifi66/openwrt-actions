@@ -24,5 +24,10 @@ git clone --depth=1 https://github.com/kuoruan/openwrt-kcptun package/openwrt-kc
 git clone --depth=1  https://github.com/vernesong/OpenClash /tmp/clash
 mv /tmp/clash/luci-app-openclash package/luci-app-openclash
 
+# luci-app-smartdns
+git clone --depth=1 https://github.com/VergilGao/openwrt-smartdns package/openwrt-smartdns
+git clone -b lede --depth=1 https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+
+
 # 追加feeds
 echo 'src-git openwrt_switch_lan_play https://github.com/htynkn/openwrt-switch-lan-play.git' >> feeds.conf.default
