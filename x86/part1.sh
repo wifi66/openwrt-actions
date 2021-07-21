@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OPENCLASH_VERSION = v0.42.08-beta
+OPENCLASH_VERSION=v0.42.08-beta
 
 # vlmcsd 及其 luci 界面
 git clone --depth=1 https://github.com/mchome/openwrt-vlmcsd package/vlmcsd
@@ -23,7 +23,8 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus package/
 git clone --depth=1 https://github.com/kuoruan/openwrt-kcptun package/openwrt-kcptun
 
 # OpenClash
-svn co https://github.com/vernesong/OpenClash/tags/${OPENCLASH_VERSION}/luci-app-openclash package/openclash && mv package/openclash package/luci-app-openclash
+git clone -b v0.42.08-beta --depth=1  https://github.com/vernesong/OpenClash /tmp/clash
+mv /tmp/clash/luci-app-openclash package/luci-app-openclash
 
 # luci-app-smartdns
 git clone --depth=1 https://github.com/VergilGao/openwrt-smartdns package/openwrt-smartdns
