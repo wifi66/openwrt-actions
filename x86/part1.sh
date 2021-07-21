@@ -28,6 +28,8 @@ mv /tmp/clash/luci-app-openclash package/luci-app-openclash
 git clone --depth=1 https://github.com/VergilGao/openwrt-smartdns package/openwrt-smartdns
 git clone -b lede --depth=1 https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
+# luci-app-music-remote-center
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-music-remote-center package/luci-app-music-remote-center
 
 # 追加feeds
 echo 'src-git openwrt_switch_lan_play https://github.com/htynkn/openwrt-switch-lan-play.git' >> feeds.conf.default
