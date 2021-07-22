@@ -1,6 +1,12 @@
 #!/bin/bash
 
-OPENCLASH_VERSION=v0.42.08-beta
+OPENCLASH_VERSION=v0.42.09-beta
+
+#编译安装 po2lmo 
+git clone --depth=1 https://github.com/VergilGao/po2lmo tools/po2lmo
+pushd tools/po2lmo
+make && sudo make install
+popd
 
 # vlmcsd 及其 luci 界面
 git clone --depth=1 https://github.com/mchome/openwrt-vlmcsd package/vlmcsd
