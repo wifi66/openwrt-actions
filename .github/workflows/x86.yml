@@ -93,6 +93,12 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
+    
+    - name: Modify luci language files
+      run: |
+        chmod +x convert.sh
+        cd openwrt
+        $GITHUB_WORKSPACE/convert.sh
         
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
